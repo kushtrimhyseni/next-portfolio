@@ -1,6 +1,6 @@
 import Image from "next/image";
-import topImage from "../public/images/PersonImage.png";
-import dots from "../public/images/Dots.png";
+import topImage from "../../public/images/PersonImage.png";
+import dots from "../../public/images/Dots.png";
 export default function ImageWithDots() {
   return (
     <div className="relative">
