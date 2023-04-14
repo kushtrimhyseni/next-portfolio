@@ -1,8 +1,8 @@
 // import { PrismaClient } from "@prisma/client";
 
-import Description from "@/components/Description";
-import ImageWithDots from "@/components/ImageWithDots";
-import QuoteText from "@/components/QuoteText";
+import Description from "@/components/intro-section/Description";
+import ImageWithDots from "@/components/intro-section/ImageWithDots";
+import QuoteText from "@/components/intro-section/QuoteText";
 import Projects from "@/components/projects/Projects";
 // const prisma = new PrismaClient();
 

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import quotes from "../public/images/quotes.png";
+import quotes from "../../public/images/quotes.png";
 export default function QuoteText() {
   return (
     <div className="border border-[#abb2bf] max-w-[712px] relative p-8 mt-24">
