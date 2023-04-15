@@ -14,7 +14,7 @@ module.exports = {
       },
       colors: {
         portfolio: "#282C33",
-        primary: "#C778DD",
+        primary: "#00ff01",
       },
       fontFamily: {
         fira: ["Fira Code", "monospace"],
