@@ -35,7 +35,7 @@ export default function ProjectCard({ project }: { project: Projects }) {
       <div className="px-4 my-6 flex">
         <Link
           href={project.project_button}
-          className="text-base text-white font-md bg-transparent hover:bg-primary hover:opacity-30 border border-[#C778DD] p-2 text-center w-20"
+          className="text-base text-white font-md bg-transparent hover:bg-primary hover:opacity-30 border border-primary p-2 text-center w-20"
           target="_blank"
         >
           Live
