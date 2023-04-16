@@ -1,5 +1,5 @@
+import Headers from "../atoms/Headers";
 import ProjectCard from "./ProjectCard";
-import ProjectsHeader from "./ProjectsHeader";
 import { PrismaClient } from "@prisma/client";
 
 const prisma = new PrismaClient();
@@ -25,7 +25,12 @@ export default async function Projects() {
   const projects = await getProjects();
   return (
     <>
-      <ProjectsHeader />
+      <div className="flex items-center w-full">
+        <Headers name="projects" />
+        <span className="mt-24 text-base text-white font-semibold w-[120px] flex justify-end items-end">
+          View all
+        </span>
+      </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-10">
         {projects.map((project) => (
           <ProjectCard key={project.id} project={project} />
