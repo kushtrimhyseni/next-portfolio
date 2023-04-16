@@ -2,6 +2,7 @@ import Description from "@/components/intro-section/Description";
 import ImageWithDots from "@/components/intro-section/ImageWithDots";
 import QuoteText from "@/components/intro-section/QuoteText";
 import Projects from "@/components/projects/Projects";
+import Skills from "@/components/skills-section/Skills";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       </div>
       <QuoteText />
       <Projects />
+      <Skills />
     </main>
   );
 }
