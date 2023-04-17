@@ -13,7 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-portfolio max-w-screen-lg mx-auto">
+      <body className="bg-portfolio max-w-screen-lg mx-auto p-4">
         <Navbar />
         {children}
       </body>
