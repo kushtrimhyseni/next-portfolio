@@ -1,0 +1,28 @@
+import Link from "next/link";
+import Image from "next/image";
+import discord from "../../public/images/Discord.png";
+import email from "../../public/images/Email.png";
+
+export default function ContactBox() {
+  return (
+    <div className="border border-[#abb2bf] ml-auto w-[320px] mt-8 p-2">
+      <p className="text-white text-lg font-semibold mb-4">Message me here</p>
+      <Link
+        href="https://discordapp.com/users/Kushtrim Hyseni#4659"
+        className="flex items-center"
+      >
+        <Image src={discord} alt="Discord" />
+        <p className="text-base text-[#abb2bf] ml-2">!Kushtrim Hyseni#4659</p>
+      </Link>
+      <Link
+        href="mailto:kushtriimhyseni@gmail.com"
+        className="flex items-center"
+      >
+        <Image src={email} alt="Email" />
+        <p className="text-base text-[#abb2bf] ml-2">
+          kushtriimhyseni@gmail.com
+        </p>
+      </Link>
+    </div>
+  );
+}

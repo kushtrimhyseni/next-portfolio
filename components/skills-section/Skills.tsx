@@ -5,7 +5,7 @@ import { skills } from "@/util/Skills";
 export default function Skills() {
   return (
     <>
-      <div className="mt-24 flex justify-between items-center w-full relative">
+      <div className="mt-24 flex justify-between items-center w-full">
         <Headers name="skills" />
       </div>
       <div className="flex flex-wrap gap-4">

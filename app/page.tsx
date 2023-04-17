@@ -1,6 +1,9 @@
+import About from "@/components/about-me/About";
+import ContactHeader from "@/components/contact/ContactHeader";
 import Description from "@/components/intro-section/Description";
 import ImageWithDots from "@/components/intro-section/ImageWithDots";
 import QuoteText from "@/components/intro-section/QuoteText";
+import SocialMedia from "@/components/intro-section/SocialMedia";
 import Projects from "@/components/projects/Projects";
 import Skills from "@/components/skills-section/Skills";
 
@@ -14,6 +17,8 @@ export default function Home() {
       <QuoteText />
       <Projects />
       <Skills />
+      <About />
+      <ContactHeader />
     </main>
   );
 }
