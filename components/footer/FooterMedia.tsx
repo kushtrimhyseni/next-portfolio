@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function FooterMedia() {
   return (
-    <div className="w-full flex flex-col ml-auto items-end">
+    <div className="w-full flex flex-col mx-auto items-center mt-4 lg:m-0 lg:ml-auto lg:items-end">
       <p className="text-xl leading-8 text-white font-semibold">Media</p>
       <div className="flex mt-2">
         <Link href="https://github.com/kushtrimhyseni">

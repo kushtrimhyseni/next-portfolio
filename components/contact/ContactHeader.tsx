@@ -4,7 +4,7 @@ import ContactBox from "./ContactBox";
 export default function ContactHeader() {
   return (
     <>
-      <div className="mt-24 flex justify-between items-center w-full">
+      <div className="mt-4 md:mt-12 lg:mt-24 flex justify-between items-center w-full">
         <Headers name="contacts" />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">

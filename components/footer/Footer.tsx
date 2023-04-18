@@ -8,7 +8,7 @@ export default function Footer() {
         <FooterLeft />
         <FooterMedia />
       </div>
-      <span className="flex justify-center items-center text-base leading-5 text-[#abb2bf] w-full my-12">
+      <span className="flex justify-center items-center text-base leading-5 text-[#abb2bf] w-full my-4 lg:my-12">
         © Copyright {new Date().getFullYear()}. Made by Kushtrim Hyseni
       </span>
     </div>

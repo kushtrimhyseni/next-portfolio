@@ -5,11 +5,11 @@ import { skills } from "@/util/Skills";
 export default function Skills() {
   return (
     <>
-      <div className="mt-24 flex justify-between items-center w-full">
+      <div className="mt-4 md:mt-12 lg:mt-24 flex justify-between items-center w-full">
         <Headers name="skills" />
       </div>
       <div className="flex flex-wrap gap-4">
-        <div className="w-1/2 mt-12">
+        <div className="w-full md:w-1/2 mt-12">
           <LeftContent />
         </div>
         {skills.map((skill) => (

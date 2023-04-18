@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Button from "../atoms/Button";
 
 export default function AboutMe() {
   return (
@@ -16,12 +16,7 @@ export default function AboutMe() {
         implemented. A key strength is communication; building strong
         relationships with people in order to deliver the best results.
       </p>
-      <Link
-        href="/about"
-        className="text-base text-white font-md bg-transparent hover:bg-primary hover:opacity-30 w-[120px] border border-primary p-2 mt-8 text-center"
-      >
-        Read More
-      </Link>
+      <Button url="/about" title="About me" />
     </div>
   );
 }
