@@ -1,3 +1,7 @@
-export default function page() {
-  return <div>About page</div>;
+export default function AboutPage() {
+  return (
+    <main className="flex min-h-screen flex-col items-center max-w-screen-lg mx-auto p-4">
+      <div className="w-full pt-24">About Page</div>
+    </main>
+  );
 }
