@@ -1,6 +1,7 @@
 import Navbar from "@/components/navbar/Navbar";
 import "./globals.css";
 import SocialMedia from "@/components/intro-section/SocialMedia";
+import Footer from "@/components/footer/Footer";
 
 export const metadata = {
   title: "Home",
@@ -14,10 +15,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-portfolio max-w-screen-lg mx-auto p-4">
+      <body className="bg-portfolio">
         <SocialMedia />
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
