@@ -5,3 +5,8 @@ export default function AboutPage() {
     </main>
   );
 }
+
+export const metadata = {
+  title: "KH | About",
+  description: "About me page.",
+};

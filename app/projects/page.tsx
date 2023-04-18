@@ -5,3 +5,8 @@ export default function ProjectPage() {
     </main>
   );
 }
+
+export const metadata = {
+  title: "KH | Projects",
+  description: "My projects page.",
+};
