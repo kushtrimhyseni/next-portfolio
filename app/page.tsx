@@ -9,7 +9,7 @@ import Skills from "@/components/skills-section/Skills";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center">
+    <main className="flex min-h-screen flex-col items-center max-w-screen-lg mx-auto p-4">
       <div className="flex justify-between w-full items-center pt-24">
         <Description />
         <ImageWithDots />
