@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function Button({ href, title }) {
+export default function Button({ href, title }: { href: URL; title: String }) {
   return (
     <Link
       href={href}
