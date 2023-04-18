@@ -3,7 +3,7 @@ import logo from "../../public/images/logo_1.svg";
 
 export default function FooterLeft() {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col p-2 lg:p-0 mx-auto">
       <div className="flex justify-start items-center gap-2">
         <Image
           src={logo}
@@ -14,7 +14,9 @@ export default function FooterLeft() {
         />
         <p className="text-base text-[#abb2bf]">kushtriimhyseni@gmail.com</p>
       </div>
-      <p className="text-white text-base leading-5 mt-4">Front-end developer</p>
+      <p className="text-white text-base leading-5 mt-4 text-center lg:text-left">
+        Front-end developer
+      </p>
     </div>
   );
 }

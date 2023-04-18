@@ -4,7 +4,7 @@ import logo from "../../public/images/logo_1.svg";
 
 export default function Navbar() {
   return (
-    <div className="flex justify-between items-center max-w-screen-xl mx-auto mt-8">
+    <div className="flex justify-between items-center max-w-screen-lg mx-auto mt-8 px-2">
       <Image
         src={logo}
         alt="Logo"

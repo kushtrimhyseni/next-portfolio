@@ -5,7 +5,7 @@ interface Skill {
 }
 export default function SkillsCard({ skill }: { skill: Skill }) {
   return (
-    <div className="border border-[#abb2bf] grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-12">
+    <div className="border border-[#abb2bf] w-full md:w-fit grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-4 lg:mt-12">
       <span className="font-semibold text-white text-base p-2">
         {skill.header}
       </span>

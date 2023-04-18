@@ -5,7 +5,7 @@ import ImageAbout from "./ImageAbout";
 export default function About() {
   return (
     <>
-      <div className="mt-24 flex justify-between items-center w-full">
+      <div className="mt-4 md:mt-12 lg:mt-24 flex justify-between items-center w-full">
         <Headers name="about-me" />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2">

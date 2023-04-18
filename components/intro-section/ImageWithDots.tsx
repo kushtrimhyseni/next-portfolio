@@ -3,7 +3,7 @@ import topImage from "../../public/images/PersonImage.png";
 import dots from "../../public/images/Dots.png";
 export default function ImageWithDots() {
   return (
-    <div className="relative">
+    <div className="relative mt-8 lg:m-0">
       <Image src={topImage} alt="MainImage" />
       <Image src={dots} alt="Dots" className="absolute bottom-8 right-4" />
     </div>

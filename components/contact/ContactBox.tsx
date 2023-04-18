@@ -5,10 +5,13 @@ import email from "../../public/images/Email.png";
 
 export default function ContactBox() {
   return (
-    <div className="border border-[#abb2bf] ml-auto w-[320px] mt-8 p-2">
+    <div
+      className="border border-[#abb2bf] mx-auto lg:ml-auto w-[320px] mt-8 p-2"
+      id="contact-me"
+    >
       <p className="text-white text-lg font-semibold mb-4">Message me here</p>
       <Link
-        href="https://discordapp.com/users/Kushtrim Hyseni#4659"
+        href="https://discordapp.com/users/500764517144330270"
         className="flex items-center"
       >
         <Image src={discord} alt="Discord" />

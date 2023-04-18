@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import Button from "../atoms/Button";
 
 interface Projects {
   id: number;
@@ -17,7 +18,7 @@ export default function ProjectCard({ project }: { project: Projects }) {
         alt="Project Image"
         height={200}
         width={330}
-        className="border-b border-[#abb2bf] w-[330px] h-[200px] object-contain bg-white"
+        className="border-b border-[#abb2bf] w-full h-[200px] object-contain bg-white"
       />
       <div className="flex gap-4 p-2">
         <span className="text-base text-[#abb2bf] font-medium min-h-[48px] flex items-center">
@@ -33,12 +34,7 @@ export default function ProjectCard({ project }: { project: Projects }) {
         </span>
       </div>
       <div className="px-4 my-6 flex">
-        <Link
-          href={project.project_button}
-          className="text-base text-white font-md bg-transparent hover:bg-primary hover:opacity-30 w-[120px] border border-primary p-2 mt-8 text-center"
-        >
-          Live
-        </Link>
+        <Button url={project.project_button} title="Live" />
       </div>
     </div>
   );
