@@ -33,7 +33,7 @@ export default function ProjectCard({ project }: { project: Projects }) {
           {project.project_description}
         </span>
       </div>
-      <div className="px-4 my-6 flex">
+      <div className="px-4 mb-6 flex">
         <Button url={project.project_button} title="Live" />
       </div>
     </div>
