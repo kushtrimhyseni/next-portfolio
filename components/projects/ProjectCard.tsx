@@ -33,7 +33,12 @@ export default function ProjectCard({ project }: { project: Projects }) {
         </span>
       </div>
       <div className="px-4 my-6 flex">
-        <Link href={project.project_button}>Live</Link>
+        <Link
+          href={project.project_button}
+          className="text-base text-white font-md bg-transparent hover:bg-primary hover:opacity-30 w-[120px] border border-primary p-2 mt-8 text-center"
+        >
+          Live
+        </Link>
       </div>
     </div>
   );

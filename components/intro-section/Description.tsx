@@ -12,7 +12,12 @@ export default function Description() {
       <p className="text-base text-[#abb2bf] leading-6 mt-8 max-w-[460px]">
         He crafts responsive websites where technologies meet creativity
       </p>
-      <Link href="/contact">Contect ME</Link>
+      <Link
+        href="/contact"
+        className="text-base text-white font-md bg-transparent hover:bg-primary hover:opacity-30 w-[120px] border border-primary p-2 mt-8 text-center"
+      >
+        Contect ME
+      </Link>
     </div>
   );
 }
