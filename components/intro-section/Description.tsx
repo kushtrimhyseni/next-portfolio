@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Button from "../atoms/Button";
 
 export default function Description() {
   return (
@@ -13,7 +12,7 @@ export default function Description() {
       <p className="text-base text-[#abb2bf] leading-6 mt-8 max-w-[460px]">
         He crafts responsive websites where technologies meet creativity
       </p>
-      <Button href="/contact" title="Contect ME" />
+      <Link href="/contact">Contect ME</Link>
     </div>
   );
 }
