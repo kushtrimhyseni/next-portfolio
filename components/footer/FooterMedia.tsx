@@ -12,7 +12,7 @@ export default function FooterMedia() {
           <Image src={github} alt="GitHub" />
         </Link>
         <Link
-          href="https://discordapp.com/users/Kushtrim Hyseni#4659"
+          href="https://discordapp.com/users/500764517144330270"
           className="flex items-center"
         >
           <Image src={discord} alt="Discord" />
