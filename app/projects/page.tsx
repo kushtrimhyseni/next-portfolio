@@ -24,7 +24,7 @@ export default async function ProjectPage() {
   const projects = await getProjects();
 
   return (
-    <main className="flex min-h-screen flex-col items-center max-w-screen-lg mx-auto">
+    <main className="flex min-h-screen flex-col items-center max-w-screen-lg mx-auto p-4 md:p-2">
       <div className="flex flex-col items-center w-full">
         <Headers name="projects" />
         <span className="text-md text-[#abb2bf] text-left w-full mt-4">

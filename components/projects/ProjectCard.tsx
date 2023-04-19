@@ -1,16 +1,8 @@
 import Image from "next/image";
-import Link from "next/link";
 import Button from "../atoms/Button";
+import { Project } from "../../lib/ProjectsInterface";
 
-interface Projects {
-  id: number;
-  project_name: string;
-  project_image: string;
-  project_button: string;
-  project_description: string;
-  project_technology: string;
-}
-export default function ProjectCard({ project }: { project: Projects }) {
+export default function ProjectCard({ project }: { project: Project }) {
   return (
     <div className="border border-[#abb2bf]">
       <Image
