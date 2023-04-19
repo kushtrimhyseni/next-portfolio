@@ -14,14 +14,26 @@ export default function ContactBox() {
         href="https://discordapp.com/users/500764517144330270"
         className="flex items-center"
       >
-        <Image src={discord} alt="Discord" />
+        <Image
+          src={discord}
+          alt="Discord"
+          width={36}
+          height={36}
+          className="w-10 h-10"
+        />
         <p className="text-base text-[#abb2bf] ml-2">!Kushtrim Hyseni#4659</p>
       </Link>
       <Link
         href="mailto:kushtriimhyseni@gmail.com"
         className="flex items-center"
       >
-        <Image src={email} alt="Email" />
+        <Image
+          src={email}
+          alt="Email"
+          width={36}
+          height={36}
+          className="w-10 h-10"
+        />
         <p className="text-base text-[#abb2bf] ml-2">
           kushtriimhyseni@gmail.com
         </p>
