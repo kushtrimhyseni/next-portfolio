@@ -25,8 +25,11 @@ export default async function ProjectPage() {
 
   return (
     <main className="flex min-h-screen flex-col items-center max-w-screen-lg mx-auto">
-      <div className="flex items-center w-full">
+      <div className="flex flex-col items-center w-full">
         <Headers name="projects" />
+        <span className="text-md text-[#abb2bf] text-left w-full mt-4">
+          All of my projects
+        </span>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-10">
         {projects.map((project) => (
