@@ -16,7 +16,7 @@ export const skills = [
   },
   {
     id: 3,
-    header: "Framerwork",
+    header: "Framework",
     description: ["React", "Next"],
   },
 ];
