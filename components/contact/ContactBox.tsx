@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import discord from "../../public/images/Discord.png";
+// import discord from "../../public/images/Discord.png";
 import email from "../../public/images/Email.png";
 
 export default function ContactBox() {
@@ -10,7 +10,7 @@ export default function ContactBox() {
       id="contact-me"
     >
       <p className="text-white text-lg font-semibold mb-4">Message me here</p>
-      <Link
+      {/* <Link
         href="https://discordapp.com/users/500764517144330270"
         className="flex items-center"
       >
@@ -22,7 +22,7 @@ export default function ContactBox() {
           className="w-10 h-10"
         />
         <p className="text-base text-[#abb2bf] ml-2">!Kushtrim Hyseni#4659</p>
-      </Link>
+      </Link> */}
       <Link
         href="mailto:kushtriimhyseni@gmail.com"
         className="flex items-center"
