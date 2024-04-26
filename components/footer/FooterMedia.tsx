@@ -1,5 +1,5 @@
 import github from "../../public/images/Github.png";
-import discord from "../../public/images/Discord.png";
+// import discord from "../../public/images/Discord.png";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -17,7 +17,7 @@ export default function FooterMedia() {
             className="w-10 h-10"
           />
         </Link>
-        <Link
+        {/* <Link
           href="https://discordapp.com/users/500764517144330270"
           className="flex items-center"
         >
@@ -28,7 +28,7 @@ export default function FooterMedia() {
             height={36}
             className="w-10 h-10"
           />
-        </Link>
+        </Link> */}
       </div>
     </div>
   );
